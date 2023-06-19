@@ -108,9 +108,7 @@ You will also need an OpenAI API key, which can be obtained by creating an accou
            function_call="auto"
        )
    
-       while response["choices"][0]["finish_reason"] == "function
-
-_call":
+       while response["choices"][0]["finish_reason"] == "function_call":
            function_response = function_call(response)
            messages.append({
                "role": "function",
