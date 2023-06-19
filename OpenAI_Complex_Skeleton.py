@@ -87,3 +87,5 @@ def feedback(query):
         
         print("\n"+response['choices'][0]['message']['content'].strip())                                                      
 
+user_input = input("Enter your query: ")
+feedback(user_input)
