@@ -85,7 +85,10 @@ def feedback(query):
                 function_call="auto"
         )
         
-        print("\n"+response['choices'][0]['message']['content'].strip())                                                      
+        print("\n"+response['choices'][0]['message']['content'].strip())
 
-user_input = input("Enter your query: ")
-feedback(user_input)
+    print("\n"+response['choices'][0]['message']['content'].strip())
+
+while True:
+    user_input = input("User: ")
+    feedback(user_input)
