@@ -143,7 +143,7 @@ while True:
 
 4. Run the program using the following command:
 ```
-python conversational_assistant.py
+python OpenAI_Complex_Skeleton.py
 ```
 
 5. The program will start and prompt you to enter your queries. Type your query and press Enter to receive a response from the conversational assistant.
