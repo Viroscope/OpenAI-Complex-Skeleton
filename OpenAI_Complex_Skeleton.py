@@ -53,7 +53,7 @@ def function_call(ai_response):
     if function_name == "function_2":
         print('Function 2')
         one = eval(arguments).get("one")
-        two = eval(arguments).get("toe")
+        two = eval(arguments).get("two")
         print(f"Function 2 {one}{two}")
         return
     
